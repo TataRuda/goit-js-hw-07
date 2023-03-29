@@ -23,10 +23,7 @@ const addGalleryMarkup = createGalleryMarkup(galleryItems);
 ulGallery.innerHTML = addGalleryMarkup;
 
 let gallery = new SimpleLightbox('.gallery a', {
-    overlayOpacity: 0.8,
-    captions: true,
-    captionSelector: 'img',
-    captionType: 'text',
+    captionsData: 'alt',
     captionPosition: 	'bottom',
     captionDelay: 250,
 
