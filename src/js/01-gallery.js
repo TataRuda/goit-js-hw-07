@@ -59,6 +59,7 @@ ulGallery.addEventListener("keydown", (event) => {
         instance.close();
     }
 });
+
 function blockStandartAction(event) {
     event.preventDefault();
 }
